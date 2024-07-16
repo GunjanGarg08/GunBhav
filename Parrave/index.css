@@ -1,0 +1,392 @@
+body{
+    background-color:bisque;
+}
+
+.head {
+    display: flex;
+    background-color: black;
+}
+
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+
+nav {
+    display: flex;
+}
+
+.terms {
+    margin-left: 80px;
+    /* border: 2px solid black; */
+    width: 900px;
+    justify-content: space-between;
+}
+
+nav .terms ul{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+nav .terms a{
+    font-size: 25px;
+    color: black;   
+    color: white;
+}
+
+nav .terms a:hover{
+    color: lightblue;
+}
+
+.login {
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.login button{
+    height: 28px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.login button:hover{
+    background-color: lightblue;
+}
+
+.sec1 {
+    background-color: white;
+    height: 220px;
+}
+
+.div1 {
+    text-align: center;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.terms2 span{
+    font-size: 22px;
+}
+
+.brands {
+    background-color: black;
+    /* border: 4px solid green; */
+    height: 150px;
+}
+
+.b1 {
+    /* border: 2px solid white; */
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-left: 7%;
+}
+
+.b1 img{
+    height: 150px;
+    width: 200px;
+}
+
+.b2 {
+    /* border: 2px solid white; */
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-left: 10%;
+}
+
+.b2 img{
+    height: 150px;
+    width: 200px;
+}
+
+.b3 {
+    /* border: 2px solid white; */
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-left: 10%;
+}
+
+.b3 img{
+    height: 150px;
+    width: 200px;
+}
+
+.b4 {
+    /* border: 2px solid white; */
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-left: 10%;
+}
+
+.b4 img{
+    height: 150px;
+    width: 200px;
+}
+
+.smart {
+    text-align: center;
+}
+
+.smart h2 {
+    font-size: 100px;
+}
+
+.f1 {
+    width: 500px;
+    float: left;
+    /* border: 2px solid black; */
+    margin-left: 150px;
+}
+
+.f1 img{
+    height: 500px;
+    width: 500px;
+}
+
+.f1 .t1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.f2 {
+    width: 500px;
+    float: left;
+    /* border: 2px solid black; */
+    margin-left: 150px;
+}
+
+.f2 img{
+    height: 650px;
+    width: 600px;
+}
+
+.f2 .t2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.f3 {
+    width: 90%;
+    /* float: left; */
+    /* border: 2px solid black; */
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.f3 img{
+    height: 600px;
+    width: 100%;
+}
+
+.f3 .t3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+/* .sec4 {
+    background-color: cornflowerblue;
+} */
+
+.operate {
+    background-color: black;
+}
+
+.operate img{
+    width: 80%;
+    height: 500px;
+    margin-left: 150px;
+}
+
+.team {
+    /* background-color: deeppink; */
+    width: 5x;
+    height: 500px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.quote {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.quote svg{
+    width: 50px;
+    height: 50px;
+}
+
+.team p{
+    width: 400px;
+    font-size: 35px;
+    font-style: oblique;
+    margin-left: 30px;
+}
+
+.member {
+    float: left;
+    margin-left: 100px;
+    /* margin-top: 30px; */
+}
+
+.tpic img {
+    height: 400px;
+    width: 800px;
+}
+
+.tmem {
+    /* border: 2px solid black; */
+    text-align: center;
+    width: 800px;
+    height: 90px;
+}
+
+.sec5 {
+    background-color: black;
+    margin-bottom: 0px;
+}
+
+.message h6{
+    font-size: 20px;
+    color: white;
+}
+
+.message h2{
+    font-size: 30px;
+    color: white;
+}
+
+.tele {
+    /* border: 2px solid black; */
+    /* background-color: darkgoldenrod; */
+    float: left;
+    width: 600px;
+    margin-left: 70px;
+}
+
+.contact {
+    /* border: 2px solid black; */
+    /* background-color: darkorange; */
+    float: left;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.call1 p{
+    font-size: 30px;
+}
+
+.call1 a{
+    font-size: 20px;
+}
+
+.call1 a:hover{
+    color: lightblue
+}
+
+.call2 span{
+    font-size: 30px;
+}
+
+.call2 h4{
+    font-size: 20px;
+}
+
+.call3 p{
+    font-size: 30px;
+}
+
+.call3 a{
+    font-size: 20px;
+}
+
+.call3 a:hover{
+    color: lightblue
+}
+
+.cont1 span{
+    font-size: 30px;
+}
+
+.cont1 input {
+    height: 25px;
+    width: 400px;
+}
+
+.cont1 input[type=email]:focus {
+    background-color: lightblue;
+    color:blue;
+    border: solid blue;
+}
+
+.cont2 span{
+    font-size: 30px;
+}
+
+.cont2 input {
+    height: 25px;
+    width: 400px;
+}
+
+.cont2 input[type=tel]:focus {
+    background-color: lightblue;
+    color:blue;
+    border: solid blue;
+}
+
+.cont3 span{
+    font-size: 30px;
+}
+
+.cont3 input {
+    height: 25px;
+    width: 400px;
+}
+
+.cont3 input[type=text]:focus {
+    background-color: lightblue;
+    color:blue;
+    border: solid blue;
+}
+
+.but1 {
+    margin-left: 200px;
+    margin-top: 25px;   
+}
+
+.but1 button{
+    width: 190px;
+    height: 30px;
+}
+
+.but1 button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.foot {
+    background-color: black;
+    margin-top: 270px;
+    position: relative;
+    display: flex;
+    padding-left: 500px;
+}
+
+.rights p{
+    font-size: 20px;
+    color: white;
+}
+
+.privacy ul{
+    font-size: 20px;
+}
+
+.privacy a:hover{
+    color: lightblue;
+}
